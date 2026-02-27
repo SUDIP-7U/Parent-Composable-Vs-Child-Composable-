@@ -25,6 +25,8 @@ Child‑কে শুধু state update করার জন্য callback প�
 
 Child Composable
 kotlin
+
+
 @Composable
 fun CustomButton(onClick: () -> Unit) {
     Card(
@@ -49,6 +51,8 @@ fun CustomButton(onClick: () -> Unit) {
         }
     }
 }
+
+
 এখানে CustomButton হলো child।
 
 Child কোনো state জানে না, শুধু UI দেখায়।
