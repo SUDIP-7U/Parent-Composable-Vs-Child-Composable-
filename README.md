@@ -1,4 +1,4 @@
-<img width="180" height=320" alt="Screenshot_20260228_171751" src="https://github.com/user-attachments/assets/873278f5-ec43-41f1-b2fd-22ff6464d21a" />
+<img width="280" height="580" alt="Screenshot_20260228_171751" src="https://github.com/user-attachments/assets/873278f5-ec43-41f1-b2fd-22ff6464d21a" />
 
 
 @Composable
