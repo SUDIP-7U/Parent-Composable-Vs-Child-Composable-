@@ -1,7 +1,8 @@
-parent r child  দেখাই?
+<img width="1080" height="1920" alt="Screenshot_20260228_171751" src="https://github.com/user-attachments/assets/873278f5-ec43-41f1-b2fd-22ff6464d21a" />
+
+
 
 Parent Composable
-kotlin
 @Composable
 fun DollarCounter() {
     var counter by remember { mutableIntStateOf(1) }
@@ -24,9 +25,6 @@ fun DollarCounter() {
 Child‑কে শুধু state update করার জন্য callback পাঠাচ্ছে।
 
 Child Composable
-kotlin
-
-
 @Composable
 fun CustomButton(onClick: () -> Unit) {
     Card(
