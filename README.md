@@ -1,5 +1,16 @@
 <img width="180" height=320" alt="Screenshot_20260228_171751" src="https://github.com/user-attachments/assets/873278f5-ec43-41f1-b2fd-22ff6464d21a" />
 
+
+@Composable
+fun MyApp() {
+    Surface(
+        modifier = Modifier.fillMaxSize(),
+        color = MaterialTheme.colorScheme.background
+    ) {
+        DollarCounter()
+    }
+}
+
 @Composable
 fun DollarCounter() {
 //Parent Composable er moddhe state Hold kora ase
@@ -51,11 +62,8 @@ fun CustomButton(onClick: () -> Unit) {
 }
 
 
-
 এখানে CustomButton হলো child।
-
 Child কোনো state জানে না, শুধু UI দেখায়।
-
 Parent থেকে আসা onClick callback invoke করে।
 
 Flow Diagram (Textual)
